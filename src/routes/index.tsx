@@ -50,7 +50,10 @@ function App() {
   return (
     <div className="min-h-screen bg-zinc-950 relative p-4 sm:p-8 overflow-hidden">
         {/* Panel 1 */}
-        <Draggable nodeRef={nodeRef1} handle=".drag-handle">
+        <Draggable
+          nodeRef={nodeRef1}
+          handle=".drag-handle"
+        >
             <div
               ref={nodeRef1}
               className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2
@@ -61,7 +64,10 @@ function App() {
         </Draggable>
 
         {/* Panel 2 */}
-        <Draggable nodeRef={nodeRef2} handle=".drag-handle">
+        <Draggable
+          nodeRef={nodeRef2}
+          handle=".drag-handle"
+        >
             <div
               ref={nodeRef2}
               className="absolute top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2
