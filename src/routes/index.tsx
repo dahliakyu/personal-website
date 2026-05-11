@@ -53,8 +53,8 @@ function App() {
         <Draggable nodeRef={nodeRef1} handle=".drag-handle">
             <div
               ref={nodeRef1}
-              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
-                         md:left-1/2 md:-translate-x-[calc(100%+32px)] md:-translate-y-1/2"
+              className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2
+                         md:top-1/2 md:left-1/2 md:-translate-x-[calc(100%+32px)] md:-translate-y-1/2"
             >
                 <TreeView posts={allPosts} siteName="~/personal-website" />
             </div>
@@ -64,8 +64,8 @@ function App() {
         <Draggable nodeRef={nodeRef2} handle=".drag-handle">
             <div
               ref={nodeRef2}
-              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
-                         md:left-1/2 md:translate-x-[32px] md:-translate-y-1/2"
+              className="absolute top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2
+                         md:top-1/2 md:left-1/2 md:translate-x-[32px] md:-translate-y-1/2"
             >
                 <TreeView posts={placeholderPosts} siteName="~/common-place" />
             </div>
